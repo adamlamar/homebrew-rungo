@@ -8,11 +8,13 @@ class Rungo < Formula
     bin.install 'rungo'
     bin.install_symlink 'rungo' => 'go'
     bin.install_symlink 'rungo' => 'godoc'
+    bin.install_symlink 'rungo' => 'gofmt'
   end
 
   test do
     system "#{bin}/rungo version"
     system "#{bin}/go version"
     system "#{bin}/godoc version"
+    system "#{bin}/gofmt version"
   end
 end
