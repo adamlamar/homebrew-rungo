@@ -1,8 +1,8 @@
 class Rungo < Formula
   desc "Simple shim to run a specific version of Go."
   homepage "https://github.com/adamlamar/rungo"
-  url "https://github.com/adamlamar/rungo/releases/download/0.0.5/rungo-0.0.5-osx.tar.gz"
-  sha256 "97a30168aa2ec6e0fdf6e01e861cabaf3da5fdf380826a13aa7a2633a9238277"
+  url "https://github.com/adamlamar/rungo/releases/download/0.0.7/rungo-0.0.7-osx-amd64.tar.gz"
+  sha256 "1477d384e5633f829f8096f75c06d928b70792e9222cf73d106e623d0fc936f5"
 
   def install
     bin.install 'rungo'
